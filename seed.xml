@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project name="arvinquilao/android_device_google_seed" path="device/google/seed" remote="github" revision="cm-14.0"/>
-	
-	<project name="arvinquilao/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-14.0"/>
-    <project name="android/kernel_msm" path="kernel/google/seed" remote="github" revision="android-msm-seed-3.10-nougat"/>
-	<project name="arvinquilao/android_device_cyanogen_msm8916-common"path="device/cyanogen/msm8916-common" revision="cm-14.0"/>
-	<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="staging/cm-14.0"/>
+    <project path="device/google/seed" name="arvinquilao/android_device_google_seed" remote="github" revision="cm-14.0"/>
+    <project path="device/cyanogen/msm8916-common" name="arvinquilao/android_device_cyanogen_msm8916-common" remote="github" revision="cm-14.0"/>
+    <project path="vendor/google" name="arvinquilao/proprietary_vendor_google" remote="github" revision="cm-14.0"/>
+    <project path="kernel/google/seed" name="android/kernel_msm" remote="github" revision="android-msm-seed-3.10-nougat"/>
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="staging/cm-14.0"/>
 </manifest>
