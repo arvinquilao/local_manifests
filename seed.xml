@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- You should probably let Roomservice deal with this unless you know what you are doing. -->
 <manifest>
-  <remove-project name="android_vendor_pa" />
-  <project name="arvinquilao/android_device_google_seed" path="device/google/seed" remote="github" revision="marshmallow-caf" />
-  <project name="arvinquilao/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github" revision="marshmallow-caf" />
-  <project name="arvinquilao/proprietary_vendor_google" path="vendor/google" remote="github" revision="marshmallow-caf" />
-  <project name="arvinquilao/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="marshmallow-caf" />
-  <project name="arvinquilao/android_vendor_pa" path="vendor/pa" remote="github" revision="marshmallow-caf" />
-  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" remote="caf" revision="LA.BR.1.2.6_rb1.16" />
-  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" remote="caf" revision="LA.BR.1.2.6_rb1.16" />
-  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" remote="caf" revision="LA.BR.1.2.6_rb1.16" />
-  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="aospa" revision="marshmallow-caf" />
-  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="aospa" revision="marshmallow-caf-8916" />
-  <project name="android_frameworks_av" path="frameworks/av" remote="aospa" revision="marshmallow-caf-8996" />
+  <remove-project name="AOSPA/android_vendor_pa" />
+  <project name="arvinquilao/android_device_google_seed" path="device/google/seed" remote="github" revision="nougat-caf" />
+  <project name="arvinquilao/android_kernel_google_seed" path="kernel/google/seed" remote="github" revision="nougat-caf" />
+  <project name="arvinquilao/proprietary_vendor_google" path="vendor/google" remote="github" revision="nougat-caf" />
+  <project name="arvinquilao/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="nougat-caf" />
+  <project name="arvinquilao/android_vendor_pa" path="vendor/pa" remote="github" revision="nougat-caf" />
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" remote="caf" revision="LA.BR.1.2.9_rb1.5" />
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" remote="caf" revision="LA.BR.1.2.9_rb1.5" />
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" remote="caf" revision="LA.BR.1.2.9_rb1.5" />
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" remote="caf" revision="LA.BR.1.2.9_rb1.5" />
 </manifest>
