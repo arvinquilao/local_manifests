@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- You should probably let Roomservice deal with this unless you know what you are doing. -->
 <manifest>
   <remove-project name="AOSPA/android_vendor_pa" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+  <remove-project name="AOSPA/android_build" />
   <project name="arvinquilao/android_device_google_seed" path="device/google/seed" remote="github" revision="nougat-caf" />
   <project name="arvinquilao/android_kernel_google_seed" path="kernel/google/seed" remote="github" revision="nougat-caf" />
   <project name="arvinquilao/proprietary_vendor_google" path="vendor/google" remote="github" revision="nougat-caf" />
@@ -11,5 +12,5 @@
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
   <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
-  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
+  <project name="arvinquilao/android_build" path="build" remote="github" revision="nougat-caf" />
  </manifest>
