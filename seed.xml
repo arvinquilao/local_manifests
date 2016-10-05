@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="AOSPA/android_vendor_pa" />
-  <remove-project name="platform/prebuilts/qemu-kernel" />
-  <remove-project name="AOSPA/android_build" />
-  <project name="arvinquilao/android_device_google_seed" path="device/google/seed" remote="github" revision="nougat-caf" />
-  <project name="arvinquilao/android_kernel_google_seed" path="kernel/google/seed" remote="github" revision="nougat-caf" />
-  <project name="arvinquilao/proprietary_vendor_google" path="vendor/google" remote="github" revision="nougat-caf" />
-  <project name="arvinquilao/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="nougat-caf" />
-  <project name="arvinquilao/android_vendor_pa" path="vendor/pa" remote="github" revision="nougat-caf" />
-  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
-  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
-  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
+  <remote name="caf" fetch="git://codeaurora.org/quic/la" />
+  <project name="arvinquilao/android_device_google_seed" path="device/google/seed" remote="github" revision="android-7.0" />
+  <project name="arvinquilao/android_kernel_google_seed" path="kernel/google/seed" remote="github" revision="android-7.0" />
+  <project name="arvinquilao/proprietary_vendor_google" path="vendor/google" remote="github" revision="android-7.0" />
+  <project name="arvinquilao/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="android-7.0" />
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio-caf-8916" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media-caf-8916" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster-caf-8916" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" remote="caf" revision="LA.BR.1.2.9_rb1.6" />
-  <project name="arvinquilao/android_build" path="build" remote="github" revision="nougat-caf" />
- </manifest>
+</manifest>
