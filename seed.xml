@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="android_device_google_seed" path="device/google/seed" remote="omnirom" revision="android-7.0" />
-  <project name="android_kernel_google_seed" path="kernel/google/seed" remote="omnirom" revision="android-7.0" />
-  <project name="DonkeyCoyote/proprietary_vendor_google" path="vendor/google" remote="github" revision="android-7.0" />
-  <project name="android_device_qcom_msm8916-common" path="device/qcom/msm8916-common" remote="omnirom" revision="android-7.0" />  
-  <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-7.0" />
+  <project name="android_device_google_seed" path="device/google/seed" remote="omnirom" revision="android-7.1" />
+  <project name="android_kernel_google_seed" path="kernel/google/seed" remote="omnirom" revision="android-7.1" />
+  <project name="DonkeyCoyote/proprietary_vendor_google" path="vendor/google" remote="github" revision="android-7.1" />
+  <project name="android_device_qcom_msm8916-common" path="device/qcom/msm8916-common" remote="omnirom" revision="android-7.1" />  
+  <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-7.1" />
 </manifest>
